@@ -312,16 +312,16 @@ footer{
   }
   */
   #nav-ham-menu.clicked #span1, #nav-ham-menu.clicked #span3{
-    width: 12px;
+    width: 13px;
   }
   #nav-ham-menu.clicked #span1{
-    transform: rotateZ(-40deg) translateY(5px);
+    transform: rotateZ(-40deg) translateY(6px);
   }
   #nav-ham-menu.clicked #span2{
-    transform: translateX(3px);
+    transform: translateX(5px);
   }
   #nav-ham-menu.clicked #span3{
-    transform: rotateZ(40deg) translateY(-5px);
+    transform: rotateZ(40deg) translateY(-6px);
   }
   .navbar-collapse{
     position: absolute;
