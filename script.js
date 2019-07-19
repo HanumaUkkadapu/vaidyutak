@@ -13,11 +13,11 @@ function sizeCheck(x){
 
 // DropDown Menu --------------------------------------------
 var dropContent = document.querySelector('.dropdown-content');
-dropContent.style.left = s[0] - 240 +"px"; //for printing for the first time
+dropContent.style.left = s[0] - 250 +"px"; //for printing for the first time
 function dropDown(x){
 	if(x >= 540){
 		if(s[0] != x){
-			dropContent.style.left = x - 240 +"px";
+			dropContent.style.left = x - 250 +"px";
 		}
 	}
 }
